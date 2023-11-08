@@ -1,12 +1,12 @@
 .logo {
     width:100px;
-    height: 70px;
+    height: 95px;
     border-radius: 50%;
     display:block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
 }
 
 
@@ -14,6 +14,14 @@
     text-align: center;
     font-size: 200%;
     color: pink;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 100%;
+    color: black;
 }
 
 .links_item{
