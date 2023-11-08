@@ -1,26 +1,41 @@
 .logo {
-    width:100px;
-    height: 95px;
-    border-radius: 50%;
-    display:block;
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    object-fit: contain;
+    object-position: initial;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
-    padding-bottom: 20px;
+    filter: none;
 }
 
-
+body{
+    background-image: url(/assets/backgroundpic.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 .linktreetitle {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-size: 200%;
-    color: pink;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 .caption {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
@@ -35,6 +50,8 @@
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .links_item .links_item--video {
