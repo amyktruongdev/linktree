@@ -45,7 +45,8 @@ body{
     max-width: 400px;
     margin: 0 auto 15px;
     margin-bottom: 5px;
-    padding: 15px 20px;
+    /*padding: 15px 20px; this is top and bottom padding for 15px and 20px is for right and left*/
+    padding: 10px 20px;
     font-size: 0.95rem;
     line-height: 1.5;
     text-decoration: none;
