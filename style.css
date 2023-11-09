@@ -58,6 +58,9 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.links_item:active{
+    transform: scale(0.9);
+}
 
 .links_item .links_item--video {
     border-bottom: 3px solid black;
